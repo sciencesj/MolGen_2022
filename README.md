@@ -7,11 +7,11 @@ In this repository, you will find all the informations and the data you need for
 
 MolGen2022_Manual			- Manual with all infromations about the practicals. 
 
-`1_Frogs`							- This directory contain all the data for the first project.
+`/1_Frogs/`							- This directory contain all the data for the first project.
 
-`2_Cichlids`					- This directory contain all the data for the second project.
+`/2_Cichlids/`					- This directory contain all the data for the second project.
 
-`3_Eels`							- This directory contain all the data for the third project.
+`/3_Eels/`							- This directory contain all the data for the third project.
 
 In each directory (`/1_Frogs/`, `/2_Cichlids/` and `/3_Eels/`), you will find a `README_*.txt` file with a descrition of the files for each project.
 
