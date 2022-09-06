@@ -46,4 +46,4 @@ To install all packages required, please run these commands :
 `BiocManager::install("LEA", dependencies = TRUE)`
 
 
-if you are not administrator of your computer, you can specify where the packages should be installed with the `lib` option in `install.packages()`
+if you are not administrator of your computer, or if you have trouble installing the packages, you can specify where the packages should be installed with the `lib` option in `install.packages()`
