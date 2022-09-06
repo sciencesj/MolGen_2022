@@ -24,8 +24,6 @@ If you already have an R verison installed on your laptop and want to change, yo
 
 To install all packages required, please run these commands :
 
-in caye you are not administrator of your computer, you can specify where the packages should be installed with the `lib` option in `install.packages()`
-
 `install.packages("ape", dependencies = TRUE)`
 
 `install.packages("phangorn", dependencies = TRUE)`
@@ -45,3 +43,6 @@ in caye you are not administrator of your computer, you can specify where the pa
 `install.packages("BiocManager")`
 
 `BiocManager::install("LEA", dependencies = TRUE)`
+
+
+if you are not administrator of your computer, you can specify where the packages should be installed with the `lib` option in `install.packages()`
