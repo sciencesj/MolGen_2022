@@ -26,7 +26,9 @@ If you already have an R verison installed on your laptop and want to change, yo
 To install all packages required, run these commands :
 
 `install.packages("ape", dependencies = TRUE)
+
 install.packages("phangorn", dependencies = TRUE)
+
 install.packages("seqinr", dependencies = TRUE)
 install.packages("adegenet", dependencies = TRUE)
 install.packages("pegas", dependencies = TRUE)
