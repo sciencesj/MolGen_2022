@@ -25,25 +25,17 @@ If you already have an R verison installed on your laptop and want to change, yo
 
 To install all packages required, run these commands :
 
-`install.packages("ape", dependencies = TRUE)`
+`install.packages("ape", dependencies = TRUE)
+install.packages("phangorn", dependencies = TRUE)
+install.packages("seqinr", dependencies = TRUE)
+install.packages("adegenet", dependencies = TRUE)
+install.packages("pegas", dependencies = TRUE)
+install.packages("hierfstat", dependencies = TRUE)
+install.packages("raster", dependencies = TRUE)
 
-`install.packages("phangorn", dependencies = TRUE)`
-
-`install.packages("seqinr", dependencies = TRUE)`
-
-`install.packages("adegenet", dependencies = TRUE)`
-
-`install.packages("pegas", dependencies = TRUE)`
-
-`install.packages("hierfstat", dependencies = TRUE)`
-
-`install.packages("raster", dependencies = TRUE)`
-
-`if (!requireNamespace("BiocManager", quietly = TRUE))`
-
-`install.packages("BiocManager")`
-
-`BiocManager::install("LEA", dependencies = TRUE)`
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("LEA", dependencies = TRUE)`
 
 
 if you are not administrator of your computer, or if you have trouble installing the packages, you can specify where the packages should be installed with the `lib` option in `install.packages()`
