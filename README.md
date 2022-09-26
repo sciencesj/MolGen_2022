@@ -17,7 +17,7 @@ In each directory (`/1_Frogs/`, `/2_Cichlids/` and `/3_Eels/`), you will find a 
 
 ### Important informations
 
-To be able to install and use all the packages, please **use R version 3.6.x. Do not use R version 4.x.x**.
+To be able to install and use all the packages, please **use R version 3.6.x.**. **R version 4.x.x** works sometimes, sometimes not.
 If you already have an R verison installed on your laptop and want to change, you can find a way to do it [here](https://support.rstudio.com/hc/en-us/articles/200486138-Changing-R-versions-for-the-RStudio-Desktop-IDE).
 
 
@@ -48,7 +48,6 @@ library("pegas")
 library("hierfstat")
 library("raster")
 library("LEA")
-
 ```
 
 if you are not administrator of your computer, or if you have trouble installing the packages, you can specify where the packages should be installed with the `lib` option in `install.packages()`
